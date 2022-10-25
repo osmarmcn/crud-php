@@ -36,4 +36,11 @@ Route::post('/cadastrar-produtos',function(HttpRequest $request){
 });
 
 //rota para ler o produto
+Route::get('/ver-produto/{id}',function($id){
+   
+ // dd(Produto::find($id)) ;
+    $produto = Produto::find($id);
+    return view('ver',['produto' => $produto]);
+
+});
 
