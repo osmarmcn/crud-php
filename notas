@@ -1,0 +1,12 @@
+php artisan make: model Produto -m - criar o banco de dados
+
+php artisan tinker - para testar a model
+
+exit - sair
+
+php artisan serve - pra abir em algum navegador
+
+
+(dd) - é uma função laravel, serve para mostrar na tela e parar aplicação
+
+(all) - serve para mostrar todas as informações que estam chegando
